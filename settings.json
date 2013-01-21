@@ -2,16 +2,17 @@
   "ip": "OPENSHIFT_NODEJS_IP",
   "port" : "OPENSHIFT_NODEJS_PORT",
 
-  "dbType" : "mongodb",
+  "dbType" : "mysql",
   "dbSettings" : {
-                   "user"    : "OPENSHIFT_MONGODB_DB_USERNAME",
-                   "host"    : "OPENSHIFT_MONGODB_DB_HOST",
-                   "port"    : OPENSHIFT_MONGODB_DB_PORT,
-                   "password": "OPENSHIFT_MONGODB_DB_PASSWORD",
+                   "user"    : "OPENSHIFT_DB_USERNAME",
+                   "host"    : "OPENSHIFT_DB_HOST",
+                   "port"    : OPENSHIFT_DB_PORT,
+                   "password": "OPENSHIFT_DB_PASSWORD",
                    "dbname": "OPENSHIFT_APP_NAME"
+                   "database": "store"
                  },
   
-  "defaultPadText" : "Welcome to Etherpad Lite!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nEtherpad Lite on Github: http:\/\/j.mp/ep-lite\n",
+  "defaultPadText" : "Welcome to Etherpad Lite Mysql version for Openshift!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nEtherpad Lite on Github: http:\/\/j.mp/ep-lite\n",
   
   "requireSession" : false,
 
