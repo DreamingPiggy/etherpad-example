@@ -11,7 +11,7 @@
                    "database": "OPENSHIFT_APP_NAME"
                  },
   
-  "defaultPadText" : "Welcome to Etherpad Lite Mysql version for Openshift!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nEtherpad Lite on Github: http:\/\/j.mp/ep-lite\n",
+  "defaultPadText" : "Welcome to Etherpad Lite Mysql version for Openshift!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nEtherpad Lite on Github: https:\/\/github.com\/superwbd\/etherpad-example\/\n",
   
   "requireSession" : false,
 
