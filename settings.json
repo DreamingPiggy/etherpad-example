@@ -4,10 +4,10 @@
 
   "dbType" : "mysql",
   "dbSettings" : {
-                   "user"    : "OPENSHIFT_DB_USERNAME",
-                   "host"    : "OPENSHIFT_DB_HOST",
-                   "port"    : OPENSHIFT_DB_PORT,
-                   "password": "OPENSHIFT_DB_PASSWORD",
+                   "user"    : "OPENSHIFT_MYSQL_DB_USERNAME",
+                   "host"    : "OPENSHIFT_MYSQL_DB_HOST",
+                   "port"    : OPENSHIFT_MYSQL_DB_PORT,
+                   "password": "OPENSHIFT_MYSQL_DB_PASSWORD",
                    "database": "OPENSHIFT_APP_NAME"
                  },
   
