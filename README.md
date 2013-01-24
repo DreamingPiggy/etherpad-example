@@ -21,12 +21,12 @@ you want)
 
 Add MongoDB support to your application
 
-    rhc app cartridge add -a etherpad -c mongodb-2.2
+    rhc app cartridge add -a etherpad -c mysql-5.1
 
 Add this upstream Etherpad repo
 
     cd etherpad
-    git remote add upstream -m master git://github.com/openshift/etherpad-example.git
+    git remote add upstream -m master git://github.com/superwbd/etherpad-example.git
     git pull -s recursive -X theirs upstream master
     # note that the git pull above can be used later to pull updates to
     # Etherpad the rm and ln is there until I can figure out github and
